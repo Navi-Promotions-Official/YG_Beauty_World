@@ -202,10 +202,17 @@ ul{
 	background: var(--20, #eac229) !important;
 	color: var(--1, #FFF) !important;
 }
-.oval-frame {
+/* .oval-frame {
 	border: 5px solid white;
 	border-radius: 50%;
-}
+} */
+
+.square-frame {
+	width: 130px;      
+	height: 130px;
+	border-radius: 0;  
+  }
+  
 .profile-name h1 {
 	color: var(--20, #eac229);
 	font-family: Poppins;
