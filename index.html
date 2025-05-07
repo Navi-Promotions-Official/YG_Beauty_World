@@ -1,0 +1,944 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>YG Beauty World</title>
+	<link rel="icon" href="assets/images/favicon/WhatsApp Image 2025-02-19 at 5.50.45 PM (1).jpeg">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/cursor.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/media-query.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<style>
+@media (max-width: 768px) {
+  .input-row {
+    flex-direction: column;
+  }
+
+  .appointment-field {
+    min-width: 100%;
+  }
+}
+.achievement-card h3 {
+    color: black;
+  }
+
+  .achievement-card h3:hover {
+    color: #eac229; /* Change this color to your preferred hover shade */
+	transition: color 0.3s ease;
+
+  }
+  .achievement-card {
+  background-color: #f5f5f5;
+  padding: 30px 20px;
+  border-radius: 15px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 300px;
+}
+
+.profile-sec-content {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+</style>
+<body>
+	<div class="site-content">
+		<!-- Preloader start -->
+		<div class="preloader">
+			<div id="square5">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<!-- Preloader end -->
+		<!-- Bg animation start -->
+		<canvas id="test"></canvas>
+		<!-- Bg animation end -->
+		<!-- Make up content start -->
+		<section id="makeup-artist-main" class="ceo-content">
+			<div class="makeup-artist-wrap">
+				<div class="hero-sec">
+					<div class="back-white-img">
+						<img src="assets/images/hero-sec/banner.jpeg" alt="bg-img" class="bottom-shape">
+					</div>
+				</div>
+				<div class="profile-sec-content container">
+					<div class="profile-sec">
+						<div class="profile-img">
+							<img class="oval-frame " src="assets/images/profile.png" alt="profile-img">
+						</div>
+						<div class="profile-name">
+							<h1>Gayathri Devi, Yuvarani</h1>
+							<p>Make-up Artist | Freelancing</p>
+						</div>
+					</div>
+				</div>
+				<div class="social media-sec container mt-30">
+					<div class="social-icon-content">
+						<!-- <a href="index.html">
+							<div class="social-icon-content-wrap" >
+								<img src="assets/images/social-icon/icon1.svg" alt="social-icon" class="brown-color">
+							</div>
+						</a>
+						<a href="https://www.facebook.com/" target="_blank">
+							<div class="social-icon-content-wrap" >
+								<img src="assets/images/social-icon/icon2.svg" alt="social-icon" class="brown-color">
+							</div>
+						</a> -->
+						<a href="https://www.instagram.com/yuvagayu2025" target="_blank">
+							<div class="social-icon-content-wrap">
+								<img src="assets/images/social-icon/icon3.svg" alt="social-icon" class="social-icon">
+							</div>
+						</a>
+						<a href="https://wa.me/9976527780" target="_blank">
+							<div class="social-icon-content-wrap" >
+								<img src="assets/images/social-icon/icon4.svg" alt="social-icon" class="social-icon">
+							</div>
+						</a>
+						<a href="tel:7397599026" target="_blank">
+							<div class="social-icon-content-wrap">
+								<i class="fa fa-phone social-icon" aria-hidden="true"></i>
+							</div>
+						</a>
+						
+						<!-- <a href="https://www.linkedin.com/" target="_blank">
+							<div class="social-icon-content-wrap" >
+								<img src="assets/images/social-icon/icon5.svg" alt="social-icon" class="brown-color">
+							</div>
+						</a>
+						<a href="https://x.com/" target="_blank">
+							<div class="social-icon-content-wrap" >
+								<img src="assets/images/social-icon/icon6.svg" alt="social-icon" class="brown-color">
+							</div>
+						</a>
+						<a href="https://web.telegram.org/a/" target="_blank">
+							<div class="social-icon-content-wrap" >
+								<img src="assets/images/social-icon/icon7.svg" alt="social-icon" class="brown-color">
+							</div>
+						</a>
+						<a href="https://www.youtube.com/" target="_blank">
+							<div class="social-icon-content-wrap" >
+								<img src="assets/images/social-icon/icon8.svg" alt="social-icon" class="brown-color">
+							</div>
+						</a> -->
+					</div>
+					<div class="social-icon-para mt-30">
+						<p>At <strong>YG Beauty World</strong>, we believe every woman deserves to feel beautiful and radiant on her special day. Led by <strong>Gayathri Devi</strong>, a passionate <strong>Yuvarani</strong> makeup artist, we specialize in bridal and event looks with a personal touch. From mehendi and nail art to hairstyling, our team ensures every detail—from henna to hair—reflects your unique style and makes your moments truly memorable.</p>
+					</div>
+				</div>
+				<!-- <div class="makeup-services mt-30">
+					<div class="makeup-services-top container">
+						<p >We are Makeup Specialist</p>
+						<h2 class="mt-5">Our Makeup Services</h2>
+					</div>
+					<div class="services-bottom mt-20">
+						<div class="services-bottom-wrap">
+							<div class="services-img">
+								<img src="assets/images/services/services1.png" alt="services-img">
+							</div>
+							<div class="services-content "> 
+								<h3>Facial Makeup</h3>
+								<p class="mt-10">Laoreet sit leo vitae eget convallis. Sodales id in sit maecenas vitae congue semper ullamcorper. Mi sollicitudin sed hac vulputate feugiat viverra sed sagittis in adipiscing.</p>
+								<ul class="mt-10">
+									<li>Refines Facial Pores</li>
+									<li>Reduces the appearance of fine Lines and Wrinkles</li>
+								</ul>
+							</div>
+						</div>
+						<div class="services-bottom-wrap">
+							<div class="services-img">
+								<img src="assets/images/services/services1.png" alt="services-img">
+							</div>
+							<div class="services-content "> 
+								<h3>Facial Makeup</h3>
+								<p class="mt-10">Laoreet sit leo vitae eget convallis. Sodales id in sit maecenas vitae congue semper ullamcorper. Mi sollicitudin sed hac vulputate feugiat viverra sed sagittis in adipiscing.</p>
+								<ul class="mt-10">
+									<li>Refines Facial Pores</li>
+									<li>Reduces the appearance of fine Lines and Wrinkles</li>
+								</ul>
+							</div>
+						</div>
+						<div class="services-bottom-wrap">
+							<div class="services-img">
+								<img src="assets/images/services/services1.png" alt="services-img">
+							</div>
+							<div class="services-content "> 
+								<h3>Facial Makeup</h3>
+								<p class="mt-10">Laoreet sit leo vitae eget convallis. Sodales id in sit maecenas vitae congue semper ullamcorper. Mi sollicitudin sed hac vulputate feugiat viverra sed sagittis in adipiscing.</p>
+								<ul class="mt-10">
+									<li>Refines Facial Pores</li>
+									<li>Reduces the appearance of fine Lines and Wrinkles</li>
+								</ul>
+							</div>
+						</div>
+					</div>	
+				</div> -->
+				<!-- <div class="work-sec container mt-30">
+					<div class="makeup-services-top">
+						<p>Enjoy Our Services</p>
+						<h2 class="mt-5">How It Works</h2>
+					</div>
+					<div class="work-bottom-sec mt-20">
+						<div class="work-bottom-sec-wrap">
+							<div class="work-content">
+								<img src="assets/images/work-sec/work1.png" alt="work-img">
+								<h3 class="mt-10">Discover</h3>
+								<p class="mt-10">Search for beauty services you need</p>
+							</div>
+							<div class="work-content">
+								<img src="assets/images/work-sec/work2.png" alt="work-img">
+								<h3 class="mt-10">Book</h3>
+								<p class="mt-10">Choose your service and book an appointment directly</p>
+							</div>
+							<div class="work-content">
+								<img src="assets/images/work-sec/work3.png" alt="work-img">
+								<h3 class="mt-10">Enjoy</h3>
+								<p class="mt-10">Sit back and enjoy your unique beauty experience</p>
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<!-- <div class="offer-sec-details container mt-30">
+					<div class="offer-sec">
+						<div class="offer-sec-wrap-bg">
+							<div class="offer-content">
+								<div class="offer-txt">
+									<h2>-25%</h2>
+									<h3 class="mt-15">GET YOUR DISCOUNT</h3>
+									<h4>FOR A FIRST MAKEU</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<div class="product-sec mt-30">
+					<div class="makeup-services-top">
+						<!-- <p>High Quality</p> -->
+						<h2 class="mt-5">Available Services</h2>
+					</div>
+					<div class="product-bottom-slider mt-20">
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/bridal.jpg" alt="product-img">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Bridal Makeup</h3>
+								<p class="mt-5">Radiant, personalized makeup that enhances your natural beauty on your special day.</p>	
+							</div>
+						</div>
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/Model .jpg" alt="product-img">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Model Shoot Makeup</h3>
+								<p class="mt-5">Professional, camera-ready makeup that highlights your features and enhances every shot.</p>	
+							</div>
+						</div>
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/Pre-Wedding.jpg" alt="product-img">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Pre-Wedding Shoot Makeup</h3>
+								<p class="mt-5">Elegant makeup crafted to capture your natural glow in every romantic frame.</p>	
+							</div>
+						</div>
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/Cinematic.jpg" alt="product-img">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Cinematic Makeup</h3>
+								<p class="mt-5">High-definition makeup designed for lights, camera, and action—perfect for film and video shoots.</p>	
+							</div>
+						</div>	
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/image (1).png" alt="product-img" style="height: 251px;">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Gods Makeup</h3>
+								<p class="mt-5">Divine and traditional makeup artistry that brings mythological characters to life with grace and detail.</p>	
+							</div>
+						</div>	
+					</div>
+					<!-- <div class="view-product mt-15"> 
+						<a href="product.html">View All</a>
+					</div>  -->
+				</div>
+
+				<div class="product-sec mt-30">
+					<div class="makeup-services-top">
+						<!-- <p>High Quality</p> -->
+						<h2 class="mt-5">Special Services</h2>
+					</div>
+					<div class="product-bottom-slider mt-20">
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/nail.jpg" alt="product-img">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Nail Art</h3>
+								<p class="mt-5">Stylish, detailed designs to add a perfect touch of elegance to your look.</p>	
+							</div>
+						</div>
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/Mehandi.jpg" alt="product-img">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Mehandi</h3>
+								<p class="mt-5">Intricate, traditional designs that add beauty and grace to your special moments.</p>	
+							</div>
+						</div>
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/saree.jpg" alt="product-img" style="height: 250px;">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Saree Draping</h3>
+								<p class="mt-5">Elegant draping styles to perfectly complement your outfit and occasion.</p>	
+							</div>
+						</div>
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/Silk.jpg" alt="product-img">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Silk Thread Bangles</h3>
+								<p class="mt-5">Handcrafted bangles that add a traditional charm to your ensemble.</p>	
+							</div>
+						</div>	
+						<div class="product-slide">
+							<div class="product-img">
+								<img src="assets/images/product/Hairdos.jpg" alt="product-img">
+							</div>
+							<div class="product-bottom">
+								<h3 class="mt-10">Hairdos</h3>
+								<p class="mt-5">Stylish and elegant hairstyles tailored to suit every occasion and outfit.</p>	
+							</div>
+						</div>	
+					</div>
+					<!-- <div class="view-product mt-15"> 
+						<a href="product.html">View All</a>
+					</div>  -->
+				</div>
+
+				<div class="makeup-services mt-30">
+					<div class="makeup-services-top container">
+					
+						<h2 class="mt-5">Package Details</h2>
+					</div>
+					<div class="services-bottom mt-20">
+						<div class="services-bottom-wrap">
+							<div class="services-img">
+								<img src="assets/images/image.jpg"  alt="services-img">
+							</div>
+							<div class="services-content "> 
+								<h3>HD Makeup</h3>
+								
+								<ul class="mt-10">
+									<li>Laces</li>
+									<li>Saree Draping </li>
+									<li>Hair Style </li>
+									<li>Face Makeup </li>
+									<li>Flower </li>
+									<li>Jewelset  </li>
+									<li>Final Touchup </li>
+								</ul>
+								<div class="product-price mt-10">
+									<p>₹7000</p>	
+								</div>
+							</div>
+						</div>
+						<div class="services-bottom-wrap">
+							<div class="services-img">
+								<img src="assets/images/image.png" alt="services-img">
+							</div>
+							<div class="services-content "> 
+								<h3>Glossy Makeup</h3>
+								
+								<ul class="mt-10">
+									<li>Lens </li>
+									<li>Laces</li>
+									<li>Saree Draping </li>
+									<li>Hair Style </li>
+									<li>Face Makeup </li>
+									<li>Flower </li>
+									<li>Jewelset  </li>
+									<li>Final Touchup </li>
+								</ul>
+								<div class="product-price mt-10">
+									<p>₹9000</p>	
+								</div>
+							</div>
+						</div>
+						<div class="services-bottom-wrap">
+							<div class="services-img">
+								<img src="assets/images/image1.png" alt="services-img">
+							</div>
+							<div class="services-content "> 
+								<h3>Water Proof </h3>
+								
+								<ul class="mt-10">
+									<li>Lens </li>
+									<li>Laces</li>
+									<li>Saree Draping </li>
+									<li>Hair Style </li>
+									<li>Face Makeup </li>
+									<li>Flower </li>
+									<li>Jewelset  </li>
+									<li>Final Touchup </li>
+								</ul>
+								<div class="product-price mt-10">
+									<p>₹12000</p>	
+								</div>
+							</div>
+						</div>
+						<div class="services-bottom-wrap">
+							<div class="services-img">
+								<img src="assets/images/air.jpg" alt="services-img">
+							</div>
+							<div class="services-content "> 
+								<h3>Air Brush Makeup</h3>
+								
+								<ul class="mt-10">
+									<li>Lens </li>
+									<li>Laces</li>
+									<li>Saree Draping </li>
+									<li>Hair Style </li>
+									<li>Face Makeup </li>
+									<li>Flower </li>
+									<li>Jewelset  </li>
+									<li>Final Touchup </li>
+								</ul>
+								<div class="product-price mt-10">
+									<p>₹15000</p>	
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- <div class="gallery-sec container mt-30">
+					<div class="makeup-services-top">
+						<p>Gallery</p>
+						<h2 class="mt-5">Our Works</h2>
+					</div>
+					<div class="gallery-bottom mt-20" data-cursor-text="Click" data-cursor="sm">
+						<div class="gallery-img text-center">
+							<a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#work-modal"><img src="assets/images/gallery/gallery1.png" alt="gallery-img"></a>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="testimonial-sec container">
+					<div class="makeup-services-top">
+						<p>Testimonials</p>
+						<h2 class="mt-5">What Our Client Says</h2>
+					</div>
+					<div class="testimonial-sec-bottom mt-20">
+						<div id="testimonial-slider" class="carousel slide">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="testimonial-sec-content text-center">
+										<img src="assets/svg/quotes-icon.svg" alt="quotes-icon">
+										<div class="rating-sec mt-20">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+										</div>
+										<p class="testimonial-para mt-10">Lobortis etiam lectus mollis vulputate non egestas. Non aliquet facilisis leo tellus vulputate malesuada et tellus. Maecenas arcu non ultrices non est lorem at risus. Imperdiet vulputate feugiat morbi faucibus vulputate fermentum blandit faucibus vitae.</p>
+										<img src="assets/images/main-img/testimonials-img.png" alt="client-img" class="mt-20 client-img-sec">
+										<h3 class="name mt-10">Cole Rich</h3>
+										<p class="customer-txt mt-5">Customer</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="testimonial-sec-content text-center">
+										<img src="assets/svg/quotes-icon.svg" alt="quotes-icon">
+										<div class="rating-sec mt-20">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+											<img src="assets/svg/star-icon.svg" alt="star-icon">
+										</div>
+										<p class="testimonial-para mt-10">Lobortis etiam lectus mollis vulputate non egestas. Non aliquet facilisis leo tellus vulputate malesuada et tellus. Maecenas arcu non ultrices non est lorem at risus. Imperdiet vulputate feugiat morbi faucibus vulputate fermentum blandit faucibus vitae.</p>
+										<img src="assets/images/main-img/testimonials-img.png" alt="client-img" class="mt-20 client-img-sec">
+										<h3 class="name mt-10">Cole Rich</h3>
+										<p class="customer-txt mt-5">Customer</p>
+									</div>
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#testimonial-slider" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#testimonial-slider" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+					<div class="client-wrap mt-30">
+						<div class="client-logo-bottom mt-15">
+							<div class="client-logo-wrap">
+								<div class="logo-slide">
+									<div class="logo-slide-wrap">
+										<img src="assets/images/client/logo1.png" alt="client-logo">
+									</div>
+								</div>
+								<div class="logo-slide">
+									<div class="logo-slide-wrap">
+										<img src="assets/images/client/logo2.png" alt="client-logo">
+									</div>
+								</div>
+								<div class="logo-slide">
+									<div class="logo-slide-wrap">
+										<img src="assets/images/client/logo1.png" alt="client-logo">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+				<div class="gallery-sec container mt-30">
+					<div class="makeup-services-top">
+					  <h2 class="mt-5">Our Works</h2>
+					</div>
+				  
+					<div class="work-slider mt-20" data-cursor-text="Drag" data-cursor="sm">
+					  <div class="work-slider-wrap">
+						<div class="work-card">
+							<img src="assets/images/IMG-20240911-WA0016_095156.jpg" alt="Work 1">
+						</div>
+				  
+						<div class="work-card">
+							<img src="assets/images/IMG-20250326-WA0004.jpg" alt="Work 2">
+						</div>
+				  
+						<div class="work-card">
+							<img src="assets/images/IMG_20250209_183802277_HDR.jpg" alt="Work 3">
+						</div>
+				  
+						<div class="work-card">
+							<img src="assets/images/IMG_20250210_064527524_HDR_PORTRAIT.jpg" alt="Work 4">
+						</div>
+				  
+						<div class="work-card">
+							<img src="assets/images/IMG_20250302_062955659_HDR_PORTRAIT.jpg" alt="Work 2">
+						</div>
+				  
+						<div class="work-card">
+							<img src="assets/images/IMG_20250311_143107606_HDR_PORTRAIT.jpg" alt="Work 3">
+						</div>
+				  
+						<div class="work-card">
+							<img src="assets/images/IMG_20250313_074439324_HDR_PORTRAIT~2.jpg" alt="Work 4">
+						</div>
+				  
+						<div class="work-card">
+							<img src="assets/images/IMG_20250407_125628.jpg" alt="Work 5" style="height: 560px;">
+						</div>
+				  
+						<div class="work-card">
+							<img src="assets/images/IMG_20250424_154134039_HDR_PORTRAIT.jpg" alt="Work 4" style="height: 560px;">
+						</div>
+				  
+						<div class="work-card">
+							<img src="assets/images/1-IMG-20240901-WA0013_095200.jpg" alt="Work 5" style="height: 560px;">
+						</div>
+
+						<div class="work-card">
+							<img src="assets/images/IMG_20250408_153853.jpg" alt="Work 3" style="height: 560px;">
+						</div>
+				  
+						<!-- <div class="work-card">
+						  <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#work-modal">
+							<img src="assets/images/work6.png" alt="Work 6">
+						  </a>
+						</div>
+				  
+						<div class="work-card">
+						  <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#work-modal">
+							<img src="assets/images/work7.png" alt="Work 7">
+						  </a>
+						</div> -->
+					  </div>
+					</div>
+				  </div>
+				
+
+				  <div class="appointment-sec container">
+					<div class="makeup-services-top">
+						<h2 class="mt-5 text-center text-yellow">Make An Appointment</h2>
+					</div>
+					<br>
+					<div class="appointment-sec-bottom mt-20">
+						<form class="appointment-form">
+							<!-- First Row: Name and Phone -->
+							<div class="input-row">
+								<div class="appointment-field">
+									<label class="info-person" for="name">NAME</label>
+									<input type="text" id="name" name="name" class="input-box" placeholder="Enter Your Name" required>
+								</div>
+								<div class="appointment-field" style="margin-top: 1px;">
+									<label class="info-person" for="phone">PHONE NUMBER</label>
+									<input type="text" id="phone" name="phone" class="input-box" placeholder="Enter Your Phone No" required>
+								</div>
+							</div>
+				
+							<!-- Second Row: Date and Time -->
+							<div class="input-row">
+								<div class="appointment-field">
+									<label class="info-person" for="datepicker">DATE</label>
+									<input type="date" id="date" name="date" class="input-box" placeholder="Pick A Date" required>
+								</div>
+								<div class="appointment-field" style="margin-top: 2px;">
+									<label class="info-person" for="time">TIME</label>
+									<select id="time" name="time" class="input-box">
+										<option>09:00 am</option>
+										<option selected>10:00 am</option>
+										<option>11:00 am</option>
+										<option>12:00 pm</option>
+										<option>01:00 pm</option>
+										<option>02:00 pm</option>
+										<option>03:00 pm</option>
+										<option>04:00 pm</option>
+										<option>05:00 pm</option>
+										<option>06:00 pm</option>
+										<option>07:00 pm</option>
+										<option>08:00 pm</option>
+										<option>09:00 pm</option>
+										<option>10:00 pm</option>
+									</select>
+								</div>
+							</div>
+						</form>
+						<div class="view-product mt-20 text-center">
+							<button type="submit" class="appointment-btn">Make an Appointment</button>
+						</div>
+					</div>
+				</div>
+													
+
+				
+				<div class="inquiry-sec container">
+					<div class="makeup-services-top">
+						
+						<h2 class="mt-5">Inquiries</h2>
+					</div>
+					<form class="inquiry-form" id="inquiry-form">
+						<div>
+							<label class="info-person mt-15" for="username">Your Name</label>
+							<div class="input-wrapper-form mt-10">
+								<span class="icon"><img src="assets/images/inquery/person-icon.svg" alt="person-icon" class="brown-color"></span>
+								<input type="text" id="username" name="username" placeholder="Your Name">
+							</div>
+						</div>
+						<div>
+							<label class="info-person mt-15" for="phone-number">Enter Phone Number</label>
+							<div class="input-wrapper-form mt-10">
+								<span class="icon"><img src="assets/images/inquery/call-icon.svg" alt="person-icon" class="brown-color"></span>
+								<input type="tel" id="phone-number" name="phone-number" placeholder="Your Phone Number">
+							</div>
+						</div>
+						<div>
+							<label class="info-person mt-15" for="email">Email Address</label>
+							<div class="input-wrapper-form mt-10">
+								<span class="icon"><img src="assets/images/inquery/mail-icon.svg" alt="person-icon" class="brown-color"></span>
+								<input type="text" id="email" name="email" placeholder="Your Email Address">
+							</div>
+						</div>
+						<div>
+							<label class="info-person mt-15" for="email">your message</label>
+							<div class="input-wrapper-form textarea-txt mt-10">
+								<textarea id="textarea" name="textarea"  style="border:none;" rows="4" cols="50" placeholder="Type a message here..."></textarea>
+							</div>
+						</div>
+						<div class="view-product mt-20 text-center"> 
+							<button type="submit" class="appointment-btn" >Send Message</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="contact-sec container mt-30">
+					<div class="makeup-services-top">
+						<h2>Contact Me</h2>
+						<h3 class="d-none">Hidden</h3>
+					</div>
+					<div class="contact-bottom-sec mt-15">
+						<div class="contact-details">
+							<div class="contact-icon">
+								<img src="assets/images/contact/mail-icon.svg" alt="mail-icon">
+							</div>
+							<div class="contact-content">
+								<h4>Email</h4>
+								<a href="mailto:yuvagayu303@gmail.com"><p class="mt-10">yuvagayu303@gmail.com</p></a>
+							</div>
+						</div>
+						<div class="contact-details mt-10">
+							<div class="contact-icon">
+								<img src="assets/images/contact/call-icon.svg" alt="mail-icon">
+							</div>
+							<div class="contact-content">
+								<h4>phone number</h4>
+								<a href="tel:+919976527780"><p class="mt-10">+91 9976527780</p></a>
+							</div>
+						</div>
+						<div class="contact-details mt-10">
+							<div class="contact-icon">
+								<img src="assets/images/contact/office.svg" alt="mail-icon">
+							</div>
+							<div class="contact-content">
+								<h4>office number</h4>
+								<a href="tel:+917397599026"><p class="mt-10">+91 7397599026</p></a>
+							</div>
+						</div>
+						<div class="contact-details mt-10">
+							<div class="contact-icon">
+								<img src="assets/images/contact/location.svg" alt="mail-icon">
+							</div>
+							<div class="contact-content">
+								<h4>Location</h4>
+								<p class="mt-10">No.606 Pandiyan Nagar 2nd Street ,
+									Pandikoil Road, Allinagaram, Theni - 625531.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="map-sec container mt-30">
+					<div class="map-img">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7859.180061038314!2d77.4466181225312!3d9.968026375786007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07139afd9b0215%3A0xfe1cbc0f1a7a3946!2sAllinagaram%2C%20Tamil%20Nadu%20625534!5e0!3m2!1sen!2sin!4v1746444634684!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>					</div>
+				</div>
+				<div class="add-to-contact container">
+					<div class="add-to-contact-wrap">
+						<a href="javascript:void(0)" class="scan-btn" data-bs-toggle="modal" data-bs-target="#product-modal">
+							<img src="assets/images/bottom-sec/scan-icon.svg" alt="scan-icon">
+						</a>
+						<a href="javascript:void(0)" class="scan-btn" data-bs-toggle="modal" data-bs-target="#share-media-modal">
+							<img src="assets/images/bottom-sec/share-icon.svg" alt="share-icon">
+						</a>
+						<a href="contact.zip" class="add-to-btn">
+							<div class="add-to-btn-sec">
+								<div class="add-txt">Add to Contact</div>
+								<div class="plus-btn"><img src="assets/images/bottom-sec/plus-icon.svg" alt="plus-icon"></div>
+							</div>
+						</a>
+					</div>		
+				</div>
+				<!-- <div class="footer mt-10">
+					<p>Made By Digi vCard Builder 💖 The_Krishna</p>
+				</div> -->
+			</div>
+		</section>
+		<!-- Make up content end -->
+		<!-- Scan modal start -->
+		<div class="modal fade" id="product-modal" tabindex="-1"  aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="scan-content">
+							<div class="scanner">
+								<img src="assets/images/main-img/qr_download (1).png" alt="scanner-img" class="">
+							</div>
+							<div class="scan-txt mt-20">
+								<p>Scan me</p>
+							</div>
+						</div>
+						<div class="qr-btn mt-30">
+							<div class="btn1">
+								<a href="javascript:void(0)"  onclick="downloadImage()">Download</a>
+							</div>
+							<div class="btn1">
+								<a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#share-media-modal">Share</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  Scan modal end -->
+		<!--  Share modal start -->
+		<div class="modal fade" id="share-media-modal" tabindex="-1"  aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Share On</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="social-media-content">
+							<div class="social-media-img">
+								<a id="share-facebook" target="_blank">
+									<img src="assets/images/social-icon/icon2.svg" alt="Facebook">
+								</a>
+							</div>
+							<div class="social-media-img">
+								<a id="share-instagram" target="_blank">
+									<img src="assets/images/social-icon/icon3.svg" alt="Instagram">
+								</a>
+							</div>
+							<div class="social-media-img">
+								<a id="share-whatsapp" target="_blank">
+									<img src="assets/images/social-icon/icon4.svg" alt="WhatsApp">
+								</a>
+							</div>
+							<div class="social-media-img">
+								<a id="share-linkedin" target="_blank">
+									<img src="assets/images/social-icon/icon5.svg" alt="LinkedIn">
+								</a>
+							</div>
+							<div class="social-media-img">
+								<a id="share-twitter" target="_blank">
+									<img src="assets/images/social-icon/icon6.svg" alt="Twitter (X)">
+								</a>
+							</div>
+							<div class="social-media-img">
+								<a id="share-telegram" target="_blank">
+									<img src="assets/images/social-icon/icon7.svg" alt="Telegram">
+								</a>
+							</div>
+							<div class="social-media-img">
+								<a id="share-pinterest" target="_blank">
+									<img src="assets/images/social-icon/icon10.svg" alt="Pinterest">
+								</a>
+							</div>
+							<div class="social-media-img">
+								<a id="share-email" target="_blank">
+									<img src="assets/images/social-icon/icon9.svg" alt="Email">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  Share modal end -->
+		<!-- Work modal start -->
+		<div class="modal fade" id="work-modal" tabindex="-1"  aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="work-content-modal">
+							<div class="work-top-content">
+								<img src="assets/images/gallery/popup1.jpg" alt="gallery-img" class="w-100">
+								<h3 class="mt-15">Hair Cutting &amp; Color Treatments</h3>
+								<p class="mt-10">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ainventores veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit</p>
+								<p class="mt-5">Totam rem aperiam, eaque ipsa quae ainventores veritatis et quasi architecto beatae vitae dicta sunt explic aboemo enim ipsam voluptatem voluptas</p>
+								<h3 class="mt-15">Benefit For Hair Treatments</h3>
+								<p class="mt-10">Omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ainventores veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam voluptatem voluptas </p>
+								<ul class="list-style-one mt-10">
+									<li class="mt-5">Best For Human Health</li>
+									<li class="mt-5">Always Be Strong &amp; Motivate</li>
+									<li class="mt-5">Best For Human Health</li>
+									<li class="mt-5">Always Be Strong &amp; Motivate</li>
+									<li class="mt-5">Best For Human Health</li>
+									<li class="mt-5">Always Be Strong &amp; Motivate</li>
+								</ul>
+								<img src="assets/images/gallery/popup2.jpg" alt="gallery-img" class="w-100 mt-15">
+								<img src="assets/images/gallery/popup3.jpg" alt="gallery-img" class="w-100 mt-15">
+								<h3 class="mt-15">Take Care Hair & Health</h3>
+								<p class="mt-10">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ainventores veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Work modal end -->
+	</div>
+	
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/jquery.ui.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/datepiker.js"></script>
+	<script src="assets/js/jquery.matchHeight-min.js"></script>
+	<script src="assets/js/cursor.js"></script>
+	<script src="assets/js/ring.js"></script>
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script>
+		jQuery(document).ready(function($){
+			$('.price-bottom-wrap .price-content, .work-bottom-sec-wrap .work-content').matchHeight();
+		})
+	</script>
+	<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script>
+		(function(){
+		  emailjs.init("le3pQc84hFxGxKRq7"); // Your Public Key
+		})();
+	  
+		const form = document.querySelector('.appointment-form');
+		const submitBtn = document.querySelector('.appointment-btn');
+	  
+		// Trigger send manually when button clicked
+		submitBtn.addEventListener('click', function(e) {
+		  e.preventDefault();
+	  
+		  if (form.checkValidity()) {
+			// Send Email via EmailJS
+			emailjs.sendForm('service_lvyb59h', 'template_xhwwr4q', form)
+			.then(function() {
+			  alert('Appointment request sent successfully!');
+			  form.reset(); // optional: reset after submission
+			}, function(error) {
+			  alert('Failed to send appointment. Error: ' + JSON.stringify(error));
+			});
+		  } else {
+			form.reportValidity(); // This will show validation errors
+		  }
+		});
+	</script>
+	  
+	  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+	  <script type="text/javascript">
+		(function(){
+			emailjs.init("le3pQc84hFxGxKRq7"); // Replace with your actual public key from EmailJS
+		})();
+	  </script>
+  
+	  <script>
+		  document.addEventListener("DOMContentLoaded", function () {
+		  document.getElementById('inquiry-form').addEventListener('submit', function (event) {
+			  event.preventDefault();
+		  
+			  emailjs.sendForm('service_2vcfq5i', 'template_wwislbh', this)
+			  .then(function () {
+				  alert('Message sent successfully!');
+			  }, function (error) {
+				  alert('Failed to send the message, please try again.');
+				  console.log('FAILED...', error);
+			  });
+		  });
+		  });
+	  </script>
+		
+</body>
+</html>
